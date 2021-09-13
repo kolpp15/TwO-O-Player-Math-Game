@@ -6,5 +6,8 @@ require './question'
 # puts player1.name
 # puts player1.lives
 
-question1 = Question.new(1)
-puts question1.start
+# question1 = Question.new(1)
+# puts question1.start
+
+game = Game.new
+game.start
